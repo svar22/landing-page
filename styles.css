@@ -10,7 +10,7 @@ body {
 .section-one {
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
+    background-color: coral;
     padding: 0px 200px;
 }
 
@@ -25,7 +25,7 @@ ul {
     display: flex;
     padding: 0;
     list-style: none;
-    gap: 16px;
+    gap: 24px;
     
 }
 
@@ -71,7 +71,7 @@ h3 {
 }
 
 .sign-up {
-    background-color: #3882f6;
+    background-color: lightseagreen;
     color: #f9faf8;
     width: 140px;
     padding: 8px;
@@ -103,25 +103,29 @@ h3 {
 }
 
 .card-image {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     flex-shrink: 0;
-    border: solid 4px #3882f6;
+    border: solid 4px lightseagreen;
     border-radius: 16px;
+    display: flex;
+    justify-content: center;
 }
 
 .card-desc {
-    width: 160px;
+    width: 200px;
     flex-shrink: 0;
     text-align: center;
     margin-top: 8px;
+    font-size: 16px;
+    color:black;
 }
 
 .section-three {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e5e7eb;
+    background-color: coral;
     padding: 150px 350px;
     gap: 8px;
 }
@@ -131,7 +135,7 @@ h3 {
 .quote {
     font-size: 36px; 
     font-style: italic; 
-    color: #1f2937;
+    color: white;
     font-weight: 300;
     flex-shrink: 0;
 }
@@ -139,7 +143,7 @@ h3 {
 .person {
     align-self: end;
     font-size: 24px;
-    color: #1f2937;
+    color: white;
     font-weight: bold;
 }
 
@@ -153,7 +157,7 @@ h3 {
     width: 65%;
     display: flex;
     padding: 50px 100px;
-    background-color: #3882f6;
+    background-color: lightseagreen;
     margin: 80px auto;
     border-radius: 12px;
     justify-content: space-between;
@@ -175,7 +179,13 @@ h3 {
     display: flex;
     padding: 40px;
     color:#F9FAF8;
-    background-color: #1f2937;
+    background-color: coral;
     justify-content: center;
 }
 
+.image {
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 12px;
+}
