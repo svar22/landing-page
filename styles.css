@@ -38,6 +38,7 @@ a {
 h3 {
     color: #F9FAF8;
     font-size: 24px;
+    margin: 0px;
 }
 
 .hero {
@@ -77,7 +78,7 @@ h3 {
     font-size: 20px;
     border: none;
     border-radius: 8px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .section-two {
@@ -141,3 +142,40 @@ h3 {
     color: #1f2937;
     font-weight: bold;
 }
+
+.section-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-to-action {
+    width: 65%;
+    display: flex;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    margin: 80px auto;
+    border-radius: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-transparent {
+    background-color: transparent;
+    padding: 8px;
+    font-size: 20px;
+    color:#F9FAF8;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 140px;
+    font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    padding: 40px;
+    color:#F9FAF8;
+    background-color: #1f2937;
+    justify-content: center;
+}
+
